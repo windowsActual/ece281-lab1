@@ -132,17 +132,7 @@ S is strobe.  When strobe is high the output is always low,
   otherwise it&apos;s the selected data line.</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Not</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-      </elementAttributes>
-      <pos x="300" y="-60"/>
+      <pos x="-200" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -152,28 +142,140 @@ S is strobe.  When strobe is high the output is always low,
           <string>Y</string>
         </entry>
       </elementAttributes>
-      <pos x="100" y="280"/>
+      <pos x="100" y="300"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="160" y="220"/>
-      <p2 x="200" y="220"/>
+      <p1 x="120" y="-20"/>
+      <p2 x="160" y="-20"/>
     </wire>
     <wire>
-      <p1 x="160" y="200"/>
-      <p2 x="160" y="220"/>
+      <p1 x="-120" y="-20"/>
+      <p2 x="-40" y="-20"/>
     </wire>
     <wire>
-      <p1 x="200" y="200"/>
-      <p2 x="200" y="220"/>
+      <p1 x="-40" y="-20"/>
+      <p2 x="80" y="-20"/>
     </wire>
     <wire>
-      <p1 x="200" y="220"/>
+      <p1 x="-120" y="260"/>
+      <p2 x="-80" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="260"/>
+      <p2 x="40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="260"/>
+      <p2 x="0" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="260"/>
+      <p2 x="160" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="260"/>
       <p2 x="200" y="260"/>
     </wire>
     <wire>
+      <p1 x="-80" y="260"/>
+      <p2 x="-40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="20"/>
+      <p2 x="240" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="40"/>
+      <p2 x="0" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="40"/>
+      <p2 x="200" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="40"/>
+      <p2 x="40" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="300"/>
+      <p2 x="100" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-20"/>
+      <p2 x="160" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="200"/>
+      <p2 x="160" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="200"/>
+      <p2 x="80" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="-20"/>
+      <p2 x="80" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="200"/>
+      <p2 x="0" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="40"/>
+      <p2 x="0" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-40"/>
+      <p2 x="240" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="200"/>
+      <p2 x="-40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-20"/>
+      <p2 x="-40" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="-20"/>
+      <p2 x="-120" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="40"/>
+      <p2 x="200" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="200"/>
+      <p2 x="200" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="200"/>
+      <p2 x="40" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="40"/>
+      <p2 x="40" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-40"/>
+      <p2 x="120" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="20"/>
+      <p2 x="120" y="80"/>
+    </wire>
+    <wire>
       <p1 x="-80" y="20"/>
+      <p2 x="-80" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="200"/>
+      <p2 x="-80" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="40"/>
       <p2 x="-80" y="80"/>
     </wire>
   </wires>
