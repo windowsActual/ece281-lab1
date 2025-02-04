@@ -22,10 +22,11 @@
 |       | 1 | 1 | 0 | 1 | X |
 |       | 1 | 1 | 1 | 0 | X |
 |       | 1 | 1 | 1 | 1 | X |
+
 ### Boolean Equation
 
 $$
-Y = (A'B'C'D) + (A'B'CD) + (AB'CD') + (A'BCD) + (AB'C'D) + (AB'CD') + (ABC'D')
+Y = (A'D) + (AD')
 $$
 
 ### Digital Simulations
