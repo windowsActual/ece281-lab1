@@ -93,27 +93,27 @@ begin
 	--1's should be JAN MAR MAY JUL AUG OCT DEC
         w_sw <= x"1"; wait for 10 ns;
             assert w_Y = '1' report "error on Jan" severity failure;
-        w_sw <= x"2"; wait for 10ns;
+        w_sw <= x"2"; wait for 10 ns;
             assert w_Y = '0' report "error of Feb" severity failure;
-        w_sw <= x"3"; wait for 10ns;
+        w_sw <= x"3"; wait for 10 ns;
             assert w_Y = '1' report "error on Mar" severity failure;
-        w_sw <= x"4"; wait for 10ns;
+        w_sw <= x"4"; wait for 10 ns;
             assert w_Y = '0' report "error on Apr" severity failure;
-        w_sw <= x"5"; wait for 10ns;
+        w_sw <= x"5"; wait for 10 ns;
             assert w_Y = '1' report "error on May" severity failure;
-        w_sw <= x"6"; wait for 10ns;
+        w_sw <= x"6"; wait for 10 ns;
             assert w_Y = '0' report "error on Jun" severity failure;
-        w_sw <= x"7"; wait for 10ns;
+        w_sw <= x"7"; wait for 10 ns;
             assert w_Y = '1' report "error on Jul" severity failure;
-        w_sw <= x"8"; wait for 10ns;
+        w_sw <= x"8"; wait for 10 ns;
             assert w_Y = '1' report "error on Aug" severity failure;
-        w_sw <= x"9"; wait for 10ns;
+        w_sw <= x"9"; wait for 10 ns;
             assert w_Y = '0' report "error on Sep" severity failure;
-        w_sw <= x"A"; wait for 10ns;
+        w_sw <= x"A"; wait for 10 ns;
             assert w_Y = '1' report "error on Oct" severity failure;
-        w_sw <= x"B"; wait for 10ns;
+        w_sw <= x"B"; wait for 10 ns;
             assert w_Y = '0' report "error on Nov" severity failure;
-        w_sw <= x"C"; wait for 10ns;
+        w_sw <= x"C"; wait for 10 ns;
             assert w_Y = '1' report "error on Dec" severity failure;
         
 		wait; -- wait forever
